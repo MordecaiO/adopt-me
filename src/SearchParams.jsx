@@ -41,7 +41,7 @@ const SearchParams = () => {
           />
         </label>
 
-        <la1el htmlFor="animal">
+        <label htmlFor="animal">
           Animal
           <select
             id="animal"
@@ -59,7 +59,7 @@ const SearchParams = () => {
               </option>
             ))}
           </select>
-        </la1el>
+        </label>
 
         <label htmlFor="breed">
           Breed
