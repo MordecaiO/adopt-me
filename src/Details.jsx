@@ -7,7 +7,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import Modal from "./Modal";
 
 const Details = () => {
-    const [showModal, setShowModal] = (false);
+    const [showModal, setShowModal] = useState(false);
     const { id } = useParams();
     const results = useQuery(["details", id], fetchPet);
 
